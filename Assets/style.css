@@ -1,6 +1,6 @@
 @media (min-width: 320px) and (max-width: 1668px) {
 	body {
-		background-color: gray;
+		background-color: darkgray;
 		color: #ffffff;
 	}
 
@@ -15,12 +15,20 @@
 		margin: 10px;
 		border: 2px solid black;
 	}
+	button:hover {
+		background-color: gray;
+		transition: 0.25s;
+	}
 
-	.footer-text {
+	button:active {
+		background-color: white;
+	}
+
+	.text-light {
 		position: absolute;
 		left: 0;
 		bottom: 0;
-		height: unset;
+		height: auto;
 		width: 100%;
 		text-align: center;
 	}
