@@ -37,6 +37,11 @@
 	button:active {
 		background-color: white;
 	}
+	.picture {
+		height: 400px;
+		width: 100%;
+		image-resolution: 1080px;
+	}
 
 	footer {
 		position: fixed;
